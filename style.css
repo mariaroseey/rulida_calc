@@ -1,0 +1,117 @@
+body{
+background-color: mediumpurple;
+    background-size:cover;
+    background-position:center;
+    background-repeat:repeat;
+    font-family: Consolas, monospace;
+}
+.container{
+    text-align:center;
+    margin: auto;
+    background-color: rgb(170, 131, 131);
+    border:5px solid black;
+    width: 30%;
+    height: 650px; /* Increased height to accommodate the display */
+    border-radius: 25px;
+    box-shadow: 0 5px 40px black;
+}
+.maininput{
+    margin-top:80px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    height: 60px; /* Adjusted height to fit inside the border */
+    width: 89%; /* Adjusted width to fit inside the border */
+    font-size: 50px;
+    text-align:right;
+    color: rgb(0, 0, 0);
+    font-weight: 00;
+    padding: 10px;
+    margin: 10px auto; /* Center the display horizontally */
+    border-radius: 5px;
+    pointer-events: none;
+    border:5px solid black;
+    border-radius:15px;
+}
+.numbtn{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #E1D9D1;
+    color:black;
+}
+.numbtn:hover{
+    background-color: #DCD7C8;
+    color: rgb(255, 255, 255);
+}
+.calbtn{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #2C2D2D;
+    color:rgb(0, 0, 0);
+    float:right;
+}
+.calbtn:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.c{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: rgb(206, 157, 157);
+    color:black;
+    float:right;     
+}
+.c:hover{
+    background-color: rgb(237, 45, 45);
+    color: rgb(255, 255, 255);
+}
+.equal{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #2C2D2D;
+    color:white;
+}
+.equal:hover{
+    background-color: black;
+    color: white;
+}
+h2{
+    color:black;
+    font-size:x-large;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:20px;
+    border:2px solid black;
+    width:60%;
+    margin-left:72px;
+    text-align:center;
+    margin-top:35px;
+    border-radius:5px;
+}
+
+.numbtn,
+.calbtn,
+.c,
+.equal {
+    padding: 25px 30px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: medium;
+    transition: transform 0.2s ease;
+    margin: 5px; /* Added spacing between buttons */
+}
+.numbtn:hover,
+.calbtn:hover,
+.c:hover,
+.equal:hover {
+    transform: translateY(2px);
+}
+.numbtn:active,
+.calbtn:active,
+.c:active,
+.equal:active {
+    transform: translateY(4px);
+}
